@@ -122,17 +122,17 @@
         <label for="contact-message">Message</label>
         <textarea class="input" id="contact-message" name="message" rows="5" required style="resize:vertical; min-height:120px;"></textarea>
       </div>
-      <p class="error-message" id="contact-form-error" role="alert"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>Please fill in your name, a valid email and a message.</p>
+      <p class="error-message" id="contact-form-error" role="alert" style="display:none;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg><span id="error-text"></span></p>
       <div class="form-actions">
         <button type="submit" class="btn btn-accent btn-block btn-lg">Send Message</button>
       </div>
-      <p class="form-hint" id="contact-form-success" style="display:none; color:var(--success); font-weight:600;">Thanks — your message has been prepared. If your email app didn't open, reach us directly at hello@shfitnesstools.com.au.</p>
+      <p class="form-hint" id="contact-form-success" style="display:none; color:#00d4aa; font-weight:600;">Thanks — your message has been sent. We'll be in touch soon!</p>
     </form>
   </section>
 
   <section class="section-tight container-narrow">
     <div class="result-note reveal" style="margin-bottom:0;">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 16v-4M12 8h.01"/><circle cx="12" cy="12" r="9"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>
       <span>We read every message but can't provide individual medical, dietary or training advice — for that, please see a qualified professional.</span>
     </div>
   </section>
